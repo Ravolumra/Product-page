@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:wght@300&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background-color: #eeeeee;
+  position: relative;
+}
+#header{
+  position:fixed;
+  min-height: 75px;
+  width: 97%;
+  padding:  0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top:0;
+  left: 0;
+}
+#image{
+  max-width: 300px;
+}
+.logo{
+  width: 60%;
+
+}
+#image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:20px
+}
+#nav-bar{
+  width: 40%;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  margin-left:10px
+}
+li , li > a {
+  color:black;
+  list-style: none;
+  text-decoration: none;
+}
+#hero{
+  margin-top:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#form-group{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  width: 50%;
+}
+#hero > h2{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 2rem;
+  letter-spacing: 0.5;
+  margin-bottom:20px
+}
+#email{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  max-width: 275px;
+  width: 100%;
+
+}
+.btn{
+  margin: 15px 0;
+  padding:0 20px;
+  height: 1.9rem;
+  background-color:#f1c40f ;
+  border:none ;
+  font-size:17px;
+  font-weight: 900;
+  text-transform: uppercase;
+  max-width: 150px;
+}
+.icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing: border-box;
+  max-width: 200px;
+  width: 90%;
+  text-align: center;
+  color:#ff8c00;
+  height: 125px;
+}
+.desc{
+  display:flex;
+  padding: 5px;
+
+  justify-content:center;
+  flex-direction:column;
+  width: 80vw;
+}
+.grid{
+  display: flex;
+}
+.container{ 
+  max-width: 1000px;
+  width: 100%;
+  margin: 3rem auto 0 auto;
+}
+.desc > h2 , h2{
+  font-size: 24px;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+#how-it-works{
+  margin-top:50px;
+  display: flex;
+  justify-content: center;
+}
+#video{
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
+}
+#pricing{
+  margin-top:60px;
+  display: flex;
+  justify-content: center;
+}
+.product{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.level{
+  background-color: rgb(221, 221, 221);
+  box-sizing: border-box;
+  color: black;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.product > h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.product > ol{
+  padding: 5px 0;
+}
+.product > ol > li {
+  padding: 5px 0;
+}
+.product > .btn{
+  font-weight: 500;
+  padding: 0 20px;
+  border-radius: 3px;
+}
+.btn:hover{
+  background-color: #ff8c00;
+  transition: background-color 1s ease 0s;
+}
+footer{
+  background-color: #ddd;
+  margin-top:30px;
+  padding:20px
+}
+footer > ul {
+  justify-content: flex-end;
+}
+footer > ul >li {
+  padding: 0 20px;
+}
+span{
+  color:gray;
+  display: flex;
+  justify-content: flex-end;
+  margin-top:5px;
+}
